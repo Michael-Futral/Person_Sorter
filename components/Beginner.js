@@ -1,3 +1,5 @@
+'Use Strict'
+
 import React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 import { Card, Button, Icon } from 'react-native-elements';
