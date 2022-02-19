@@ -40,7 +40,7 @@ function sort(studentsArr, sortBy, reverse = false) {
 function getBeginner(studentsArr) {
     let beginnerStudents = []
     for (let i = 0; i < studentsArr.length; i++) {
-        const student = studentsArr[i]
+        const student = studentsArr[i]1
         if (student.level === 'beginner') {
             beginnerStudents.push(student)
         }

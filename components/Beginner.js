@@ -8,6 +8,7 @@ import { top5, sort, getBeginner } from '../api/logic.js'
 import students from '../api/database/students.js'
 
 const beginner = getBeginner(students)
+
 class Beginner extends React.Component {
 
     render() {
